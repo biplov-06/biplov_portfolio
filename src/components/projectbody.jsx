@@ -2,6 +2,15 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import TU from '../assets/textutils.png';
+import calc from '../assets/calculator.jpg';
+import cric from '../assets/Cricket.png';
+import guess from '../assets/guess.jpeg';
+import learn from '../assets/learn.png';
+import memory from '../assets/memory.png';
+import rock from '../assets/rock.jpg';
+import task from '../assets/task.jpg';
+
 
 function CenterMode() {
   var settings = {
@@ -48,7 +57,7 @@ function CenterMode() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              src="../src/assets/textutils.png"
+              src={TU}
               alt="Can't load"
               height="400px"
               width="400px"
@@ -73,7 +82,7 @@ function CenterMode() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              src="../src/assets/calculator.jpg"
+              src={calc}
               alt="Can't load"
               height="400px"
               width="400px"
@@ -81,8 +90,7 @@ function CenterMode() {
             <div className="layer">
               <h3>Calculator</h3>
               <p>
-                This tool is designed for anyone who frequently works with text
-                and needs quick conversions or formatting adjustments.
+              A calculator is an electronic device or software application designed to perform arithmetic operations, complex mathematical calculations, and functions quickly and accurately.
               </p>
               <a title="project" href="https://calculator-e4mb.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>
@@ -97,7 +105,7 @@ function CenterMode() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              src="../src/assets/guess.jpeg"
+              src={guess}
               alt="Can't load"
               height="400px"
               width="400px"
@@ -105,8 +113,7 @@ function CenterMode() {
             <div className="layer">
               <h3>Guess the number </h3>
               <p>
-                This tool is designed for anyone who frequently works with text
-                and needs quick conversions or formatting adjustments.{" "}
+              The guess number game is a classic and simple game where computer randomly generates a number from 1 to 100 and player tries to guess what that number is.{" "}
               </p>
               <a
                 title="project"
@@ -124,7 +131,7 @@ function CenterMode() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              src="../src/assets/task.jpg"
+              src={task}
               alt="Can't load"
               height="400px"
               width="400px"
@@ -132,8 +139,7 @@ function CenterMode() {
             <div className="layer">
               <h3>To-Do-List </h3>
               <p>
-                This tool is designed for anyone who frequently works with text
-                and needs quick conversions or formatting adjustments.{" "}
+              A to-do list is an organized, prioritized compilation of tasks or activities that need to be completed, helping individuals manage their time and responsibilities effectively.{" "}
               </p>
               <a title="project" href="https://todolist-ivory-ten.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>
@@ -148,16 +154,15 @@ function CenterMode() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              src="../src/assets/Cricket.png"
+              src={cric}
               alt="Can't load"
               height="400px"
               width="400px"
             />
             <div className="layer">
-              <h3>Cricket</h3>
+              <h3>Score Card</h3>
               <p>
-                This tool is designed for anyone who frequently works with text
-                and needs quick conversions or formatting adjustments.{" "}
+              A live cricket scorecard provides real-time updates on match details, including team scores, wickets, overs{" "}
               </p>
               <a title="project" href="https://todolist-ivory-ten.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>
@@ -172,7 +177,7 @@ function CenterMode() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              src="../src/assets/memory.png"
+              src={memory}
               alt="Can't load"
               height="400px"
               width="400px"
@@ -180,8 +185,7 @@ function CenterMode() {
             <div className="layer">
               <h3>Memory Game</h3>
               <p>
-                This tool is designed for anyone who frequently works with text
-                and needs quick conversions or formatting adjustments.{" "}
+              A memory game challenges players to match pairs of cards from a face-down grid, testing and improving their recall abilities.{" "}
               </p>
               <a title="project" href="https://todolist-ivory-ten.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>
@@ -196,7 +200,7 @@ function CenterMode() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              src="../src/assets/rock.jpg"
+              src={rock}
               alt="Can't load"
               height="400px"
               width="400px"
@@ -204,8 +208,7 @@ function CenterMode() {
             <div className="layer">
               <h3>Rock Paper Scissor </h3>
               <p>
-                This tool is designed for anyone who frequently works with text
-                and needs quick conversions or formatting adjustments.{" "}
+              Rock Paper Scissors is a simple hand game where player and computer simultaneously select one of three shapes (rock, paper, or scissors), and the winner is determined by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock.{" "}
               </p>
               <a title="project" href="https://todolist-ivory-ten.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>
@@ -220,7 +223,7 @@ function CenterMode() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              src="../src/assets/learn.png"
+              src={learn}
               alt="Can't load"
               height="400px"
               width="400px"
@@ -228,8 +231,7 @@ function CenterMode() {
             <div className="layer">
               <h3>learning platform </h3>
               <p>
-                This tool is designed for anyone who frequently works with text
-                and needs quick conversions or formatting adjustments.{" "}
+              This is the landing page of the learning platform, which includes the landing page, login page, and sign-up page.{" "}
               </p>
               <a title="project" href="https://hackathon-three-omega.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>

@@ -1,4 +1,6 @@
 import React ,{useEffect}from 'react'
+import profileImage from '../assets/profile.jpg';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 export default function aboutimg() {
@@ -8,7 +10,7 @@ export default function aboutimg() {
   return (
     <div className='container about2'data-aos="flip-left"data-aos-duration="1000">
      <img
-              src="../src/assets/profile.jpg"
+             src={profileImage}
               alt="Can't load"
               
             />
