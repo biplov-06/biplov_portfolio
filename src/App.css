@@ -40,6 +40,9 @@ background-color: #F6F6F6 !important;
   height: 100px;
   width: 100px;
 }
+.pp{
+  height: 100vh;
+}
 .work-container{
   position: relative;
   overflow: hidden;
@@ -274,6 +277,9 @@ background-color: #F6F6F6 !important;
     display: flex;
     flex-direction: column;
 
+   }
+   .pp{
+    height: max-content;
    }
   .about2 img{
     height: 400px;

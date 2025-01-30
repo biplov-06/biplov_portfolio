@@ -10,6 +10,8 @@ import learn from '../assets/learn.png';
 import memory from '../assets/memory.png';
 import rock from '../assets/rock.jpg';
 import task from '../assets/task.jpg';
+import CineFlix from '../assets/cineflix.jpg';
+
 
 
 function CenterMode() {
@@ -50,7 +52,30 @@ function CenterMode() {
   return (
     <div className="container pr">
       <Slider {...settings}>
-        <div className="work-container-div ">
+        <div className="work-container-div">
+          <div
+            className="work-container service"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <img
+              src={CineFlix}
+              alt="Can't load"
+              height="400px"
+              width="400px"
+            />
+            <div className="layer">
+              <h3>CineFlix</h3>
+              <p>
+                CineFlix is a comprehensive movie search tool that allows users to explore trending movies, discover new releases, and find detailed information about their favorite films.
+              </p>
+              <a title="project" href="https://biplov-06.github.io/textutils/">
+                <i className="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="work-container-div">
           <div
             className="work-container service"
             data-aos="fade-up"
@@ -75,7 +100,7 @@ function CenterMode() {
           </div>
         </div>
 
-        <div className="work-container-div ">
+        <div className="work-container-div">
           <div
             className="work-container service"
             data-aos="fade-up"
@@ -164,7 +189,7 @@ function CenterMode() {
               <p>
               A live cricket scorecard provides real-time updates on match details, including team scores, wickets, overs{" "}
               </p>
-              <a title="project" href="https://todolist-ivory-ten.vercel.app/">
+              <a title="project" href="https://cricket-xi-six.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>
               </a>
             </div>
@@ -187,7 +212,7 @@ function CenterMode() {
               <p>
               A memory game challenges players to match pairs of cards from a face-down grid, testing and improving their recall abilities.{" "}
               </p>
-              <a title="project" href="https://todolist-ivory-ten.vercel.app/">
+              <a title="project" href="https://memory-game-ten-ruby.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>
               </a>
             </div>
@@ -210,7 +235,7 @@ function CenterMode() {
               <p>
               Rock Paper Scissors is a simple hand game where player and computer simultaneously select one of three shapes (rock, paper, or scissors), and the winner is determined by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock.{" "}
               </p>
-              <a title="project" href="https://todolist-ivory-ten.vercel.app/">
+              <a title="project" href="https://rock-paper-scissor-sigma-smoky.vercel.app/">
                 <i className="fa fa-external-link" aria-hidden="true"></i>
               </a>
             </div>

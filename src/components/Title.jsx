@@ -6,7 +6,8 @@ const SkillsSection = () => {
     AOS.init();
   }, [])
   return (
-    <div className="skills-section" data-aos="zoom-in" style={{textAlign:"justify"}}>
+    <div className="skills-section" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" data-aos-duration="2000" style={{textAlign:"justify"}}>
       <h1 className='title-font'>My Skills</h1>
 
       <div className="category">
@@ -33,9 +34,6 @@ const SkillsSection = () => {
           <li>
             <strong>Bootstrap:</strong> Simplifies responsive design with pre-built components, helping me create clean and professional interfaces quickly.
           </li>
-          <li>
-            <strong>Material UI:</strong> Combines modern design principles with React to build polished, intuitive user interfaces.
-          </li>
         </ul>
       </div>
 
@@ -47,6 +45,17 @@ const SkillsSection = () => {
           </li>
           <li>
             <strong>Canva:</strong> Perfect for designing quick, professional-grade graphics for websites, presentations, and branding materials.
+          </li>
+        </ul>
+      </div>
+      <div className="category">
+        <strong className='discription-font'>Other Tools</strong>
+        <ul>
+          <li>
+            <strong>Git:</strong> A distributed version control system that tracks changes in source code, enabling developers to collaborate, manage, and revert changes efficiently across projects with speed and reliability.
+          </li>
+          <li>
+            <strong>GitHub:</strong>  A powerful platform for version control and collaboration, enabling developers to manage, share, and review code efficiently while fostering teamwork and innovation.
           </li>
         </ul>
       </div>

@@ -5,7 +5,7 @@ import Projectbody from "./projectbody";
 
 export default function projectmain() {
   return (
-    <div style={{height:"100vh"}}>
+    <div className="pp">
       <Title />
       <Projectbody />
     </div>

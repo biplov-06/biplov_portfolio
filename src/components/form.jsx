@@ -43,7 +43,7 @@ export default function form({isDarkMode}) {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="exampleFormControlInput1" className="form-label form-font" >Email </label>
-                    <input type="email" name='email' className={isDarkMode?"form-control  input-box  form-font form-dark":"form-control  input-box  form-font form-light"}  placeholder="name@example.com" required/>
+                    <input type="email" name='email' className={isDarkMode?"form-control  input-box  form-font form-dark":"form-control  input-box  form-font form-light"}  placeholder="username@example.com" required/>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="exampleFormControlTextarea1" className="form-label form-font">Message</label>

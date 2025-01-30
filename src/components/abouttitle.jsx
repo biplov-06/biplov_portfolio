@@ -11,7 +11,8 @@ export default function abouttitle({isDarkMode}) {
   }, [])
   return (
     <div>
-      <div className="container"data-aos="fade-left" data-aos-duration="2000">
+      <div className="container" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
         <p className="title-font">
           <strong>About</strong>
         </p>

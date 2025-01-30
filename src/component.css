@@ -1,0 +1,64 @@
+.upperdiv{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .formplate{
+    min-width: 400px;
+    text-align: left;
+  }
+  .upper1{
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+    height: max-content;
+  }
+  .lower1{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .sites{
+    display: flex;
+    font-size:xx-large;
+    column-gap: 20px;
+    list-style: none;
+  }
+  .input-box{
+    background-color: #d8d8d8!important;
+    border: 1px solid black !important;
+    border-radius: 30px !important;
+    color: black !important;
+  }
+  .discription-font{
+    font-size:22px ;
+  }
+  .title-font{
+    font-size:55px;
+
+  }
+  .form-font{
+    font-size: 17px !important;
+  }
+  
+   .about1{
+    display: flex;
+   }
+   .contact-light{
+    background-color: #d8d8d8 !important;
+
+   }
+   .contact-dark{
+    background-color: #4E4E4E !important;
+   }
+   .form-light{
+    background-color: #d8d8d8 !important;
+    border: 1px solid black;
+    color: black;
+   }
+   .form-dark{
+    background-color: #4E4E4E !important;
+    border: 1px solid white;
+    color: white;
+
+   }
+   
