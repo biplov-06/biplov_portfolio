@@ -9,9 +9,9 @@ export default function contactTitle() {
     <div>
       <div className="container my-5" data-aos="zoom-in" >
         <h1 className=" my-4 contact-title-font">Lets Get in <strong>Touch!</strong></h1>
-        <p className='contact-discription-font'>Have a question or need assistance? <br/>Feel free to reach out via email, <br /> phone, or the contact form below.<br/> I'm excited to connect with you and will <br />get back to  you as soon as possible.
+        <p className='contact-discription-font'>The best projects are built by passionate people <br/>working together. Let’s combine our strengths and <br/>bring your vision to life. 
         </p>
-        <p className='contact-discription-font'><strong>Looking forward to hearing from you!
+        <p className='contact-discription-font'><strong>📬 Reach out — I’d love to be part of your journey.
 
 </strong></p>
       </div>

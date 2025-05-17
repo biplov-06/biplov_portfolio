@@ -5,7 +5,7 @@ import Togglebutton from "./components/togglebutton";
 import SwipleftButton from "./components/swipleft_button";
 import Heading from "./components/heading";
 import About from './components/aboutPage';
-import Skill from './components/Skill';
+import Skill from './components/newskills';
 import Projects from './components/projectmain';
 import Contact from './components/contactPage';
 import Footer from './components/footer';
@@ -21,7 +21,7 @@ export default function App() {
   return (
     <div>
       <div className={isDarkMode ? "dark-mode center-div" : "light-mode center-div"}>
-      <Heading title="From Code to Completion." isDarkMode={isDarkMode} />
+      <Heading title="Responsive, interactive, and 100% mine." isDarkMode={isDarkMode} />
       <SwipleftButton isDarkMode={isDarkMode} />
       <Togglebutton onToggle={handleToggle} isDarkMode={isDarkMode} />
     </div>

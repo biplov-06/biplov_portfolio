@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className={isDarkMode ? "dark-mode center-div" : "light-mode center-div"}>
-      <Heading title="From Code to Completion." isDarkMode={isDarkMode} />
+      <Heading title="Build. Break. Fix. Launch." isDarkMode={isDarkMode} />
       <SwipleftButton isDarkMode={isDarkMode} />
       <Togglebutton onToggle={handleToggle} isDarkMode={isDarkMode} />
     </div>

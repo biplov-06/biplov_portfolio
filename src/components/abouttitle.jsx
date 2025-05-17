@@ -1,5 +1,5 @@
 import React ,{useEffect}from 'react'
-import CV from '../assets/CV.pdf';
+import CV from '../assets/biplov CV.pdf';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
