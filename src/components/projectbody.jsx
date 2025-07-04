@@ -40,7 +40,7 @@ const projects = [
     img: CineFlix,
     title: "CineFlix",
     desc: "CineFlix is a comprehensive movie search tool that allows users to explore trending movies, discover new releases, and find detailed information about their favorite films.",
-    link: "https://biplov-06.github.io/textutils/",
+    link: "https://biplov-06.github.io/CineFlix/",
   },
   {
     img: TU,
