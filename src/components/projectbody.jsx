@@ -13,7 +13,7 @@ import task from "../assets/task.jpg";
 import CineFlix from "../assets/cineflix.jpg";
 import arrowsleft from "../assets/arrow-left.png";
 import arrowsright from "../assets/arrow-right.png";
-
+import wearup from "../assets/WearUp.png";
 
 // Custom Arrows
 function CustomPrevArrow(props) {
@@ -36,6 +36,12 @@ function CustomNextArrow(props) {
 
 // Project Data
 const projects = [
+   {
+    img: wearup,
+    title: "WearUp",
+    desc: "WearUp — a platform designed to promote sustainability in fashion. Explore, experiment, and experience how technology can create a more circular clothing ecosystem.",
+    link: "https://wearupindex.vercel.app/",
+  },
   {
     img: CineFlix,
     title: "CineFlix",
